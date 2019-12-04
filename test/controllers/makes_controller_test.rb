@@ -4,7 +4,7 @@ class MakesControllerTest < ActionDispatch::IntegrationTest
   setup do
     @make = makes(:one)
   end
-
+  
   test "should get index" do
     get makes_url
     assert_response :success
